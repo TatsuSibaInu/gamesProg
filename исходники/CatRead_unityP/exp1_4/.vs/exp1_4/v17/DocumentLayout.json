@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\programming35\\unity\\exp1_4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{097FA759-E2C1-A48B-0C81-BDD3DD2272FB}|Assembly-CSharp.csproj|e:\\programming35\\unity\\exp1_4\\assets\\scripts\\bookscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097FA759-E2C1-A48B-0C81-BDD3DD2272FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bookscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097FA759-E2C1-A48B-0C81-BDD3DD2272FB}|Assembly-CSharp.csproj|E:\\programming35\\unity\\exp1_4\\assets\\scripts\\petscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097FA759-E2C1-A48B-0C81-BDD3DD2272FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\petscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097FA759-E2C1-A48B-0C81-BDD3DD2272FB}|Assembly-CSharp.csproj|E:\\programming35\\unity\\exp1_4\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097FA759-E2C1-A48B-0C81-BDD3DD2272FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097FA759-E2C1-A48B-0C81-BDD3DD2272FB}|Assembly-CSharp.csproj|E:\\programming35\\unity\\exp1_4\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097FA759-E2C1-A48B-0C81-BDD3DD2272FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "E:\\programming35\\unity\\exp1_4\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "E:\\programming35\\unity\\exp1_4\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T21:54:28.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookScript.cs",
+              "DocumentMoniker": "E:\\programming35\\unity\\exp1_4\\Assets\\Scripts\\BookScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BookScript.cs",
+              "ToolTip": "E:\\programming35\\unity\\exp1_4\\Assets\\Scripts\\BookScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BookScript.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAUwEkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T11:11:48.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerScript.cs",
+              "DocumentMoniker": "E:\\programming35\\unity\\exp1_4\\Assets\\Scripts\\PlayerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScript.cs",
+              "ToolTip": "E:\\programming35\\unity\\exp1_4\\Assets\\Scripts\\PlayerScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerScript.cs",
+              "ViewState": "AQIAAAoBAAAAAAAAAAAAAGcBAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T09:25:17.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PetScript.cs",
+              "DocumentMoniker": "E:\\programming35\\unity\\exp1_4\\Assets\\Scripts\\PetScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PetScript.cs",
+              "ToolTip": "E:\\programming35\\unity\\exp1_4\\Assets\\Scripts\\PetScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PetScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T22:02:58.136Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

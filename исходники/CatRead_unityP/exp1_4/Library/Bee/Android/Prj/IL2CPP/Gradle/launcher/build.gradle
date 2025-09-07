@@ -1,0 +1,105 @@
+apply plugin: 'com.android.application'
+
+dependencies {
+    implementation project(':unityLibrary')
+}
+
+android {
+    ndkPath "D:/35Программирование/unity/2023.2.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK"
+    compileSdkVersion 33
+    buildToolsVersion "32.0.0"
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    defaultConfig {
+        applicationId "com.DefaultCompany.com.unity.template.mobile2D"
+        versionName "1.0.2"
+        minSdkVersion 23
+        targetSdkVersion 33
+        versionCode 1
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    aaptOptions {
+        ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~"
+        noCompress = ['.unity3d', '.ress', '.resource', '.obb', '.bundle', '.unityexp'] + unityStreamingAssets.tokenize(', ')
+    }
+
+    packagingOptions {
+        doNotStrip "*/armeabi-v7a/*.so"
+        doNotStrip "*/arm64-v8a/*.so"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('D:/programming35/unity/exp1_4/userkey0.keystore')
+            storePassword '123456'
+            keyAlias 'polter'
+            keyPassword '123456'
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled = false
+            proguardFiles getDefaultProguardFile('proguard-android.txt')
+            jniDebuggable = true
+            signingConfig signingConfigs.release
+        }
+
+        release {
+            minifyEnabled = true
+            proguardFiles getDefaultProguardFile('proguard-android.txt')
+            signingConfig signingConfigs.release
+        }
+    }
+
+    namespace "com.DefaultCompany.com.unity.template.mobile2D"
+
+        splits {
+            abi {
+                enable true
+                reset()
+                include'armeabi-v7a', 'arm64-v8a'
+                universalApk false
+            }
+        }
+
+    bundle {
+        language {
+            enableSplit = false
+        }
+
+        density {
+            enableSplit = false
+        }
+
+        abi {
+            enableSplit = true
+        }
+
+        texture {
+            enableSplit = true
+        }
+    }
+}
+
+
+ext.abiCodes = ['armeabi-v7a': 1, 'arm64-v8a': 2]
+
+import com.android.build.OutputFile
+
+android.applicationVariants.all { variant ->
+    variant.outputs.each { output ->
+        def baseAbiVersionCode = project.ext.abiCodes.get(output.getFilter(OutputFile.ABI))
+        if (baseAbiVersionCode != null) {
+            output.versionCodeOverride = baseAbiVersionCode * 100000 + variant.versionCode
+        }
+    }
+}
